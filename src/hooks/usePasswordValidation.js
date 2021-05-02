@@ -5,7 +5,7 @@ const usePasswordValidation = ({ firstPassword = "", secondPassword = "" }) => {
   const [hasNumber, setHasNumber] = useState(null);
   const [specialChar, setSpecialChar] = useState(null);
   const [match, setMatch] = useState(null);
-  const [alphanumeric, setAlphanumeric] = useState(null);
+  //const [alphanumeric, setAlphanumeric] = useState(null);
 
   useEffect(() => {
 
@@ -13,11 +13,11 @@ const usePasswordValidation = ({ firstPassword = "", secondPassword = "" }) => {
     setHasNumber(/\d/.test(firstPassword));
     setSpecialChar(/[ `!@#$%^&*()_+\-=\]{};':"\\|,.<>?~]/.test(firstPassword));
     setMatch(firstPassword && firstPassword === secondPassword);
-    setAlphanumeric(/^[a-zA-Z0-9_.-]+$/.test(firstPassword));
+    // setAlphanumeric(/^[a-zA-Z0-9_.-]+$/.test(firstPassword));
 
   }, [firstPassword, secondPassword]);
 
-  return [validLenght, hasNumber, specialChar, match, alphanumeric];
+  return [validLenght, hasNumber, specialChar, match];
 }
 
 export default usePasswordValidation;
