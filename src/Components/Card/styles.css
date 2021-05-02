@@ -1,3 +1,7 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .card {
   height: 100px;
   width: 200px;

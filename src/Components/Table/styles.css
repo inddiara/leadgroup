@@ -1,7 +1,10 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .layout {
   border: 1px solid;
   width: 600px;
   margin-left: 14px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
