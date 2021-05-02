@@ -1,0 +1,14 @@
+.card {
+  height: 100px;
+  width: 200px;
+  background-color: #071e22;
+  position: absolute;
+  margin-left: 15px;
+}
+
+h3 {
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+}
