@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  width: 600px;
+  height: 70px;
+  background-color: #19647e;
+  line-height: 70px;
+  justify-content: space-around;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+}
