@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .Border {
@@ -40,11 +41,10 @@
   font-size: 15px;
 }
 
-.Button {
-  padding: 15px;
-  margin: 15px;
+.button-register {
   font-size: 16px;
   height: 50px;
+  margin: 20px 20px 20px 15px;
   width: 160px;
   background-color: #071e22;
   color: #fff;

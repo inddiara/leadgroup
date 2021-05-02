@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import usePasswordValidation from '../../hooks/usePasswordValidation';
 import Logo from '../../assets/elo.png';
-import ButtonComponent from '../../Components/ButtonComponent';
 import './styles.css';
 
 const Register = () => {
@@ -15,7 +14,6 @@ const Register = () => {
     hasNumber,
     specialChar,
     match,
-    alphanumeric,
   ] = usePasswordValidation({
     firstPassword: password.firstPassword,
     secondPassword: password.secondPassword,
@@ -61,13 +59,10 @@ const Register = () => {
               Possui caractere especial:{" "}
               {specialChar ? <span>Verdadeiro</span> : <span>Falso</span>}
             </p>
-            <p>
-              Possui caractere alfanumérico: {alphanumeric ? <span>Verdadeiro</span> : <span>Falso</span>}
-            </p>
           </ul>
         </div>
 
-        <ButtonComponent title="Registrar"/>
+        <button className="button-register">Registrar</button>
       </form>
     </div>
   );
