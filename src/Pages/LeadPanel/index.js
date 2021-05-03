@@ -71,7 +71,7 @@ const LeadPanel = () => {
         </div>
       <button className="button-lead" onClick={handleOpenNewLeadModal}>Novo Lead (+)</button>
 
-      <Modal isOpen={isNewLeadModalOpen} onRequestClose={handleCloseNewLeadModal}>
+      <Modal isOpen={isNewLeadModalOpen} onRequestClose={handleCloseNewLeadModal} shouldCloseOnEsc={true} isClosed={true}> 
         <NewLeadForm />
       </Modal>
 
