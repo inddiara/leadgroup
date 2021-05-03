@@ -28,7 +28,7 @@ const Register = () => {
   };
 
 
-  const handleSubmit = event => {
+  const handleSubmit = (event) => {
     event.preventDefault();
     alert('Submissão realizada');
   };

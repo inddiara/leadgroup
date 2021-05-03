@@ -1,0 +1,36 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.title {
+  justify-content: center;
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+.title-lead {
+  font-size: 25px;
+}
+
+.button-lead {
+    font-size: 16px;
+    height: 50px;
+    margin: 20px 20px 20px 15px;
+    width: 160px;
+    background-color: #071e22;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
